@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  padding: 0 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: #25396b;
+  color: azure;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navBar li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+header h1 {
+  cursor: pointer;
+}
+
+/* Table */
+
+.table {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 10%;
+
+  justify-content: flex-start;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table {
+  width: 80%;
+  margin: 20px 0;
+}
+
+/* Table styles end */
+
+.link-hover-cursor {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.flex-row {
+  display: flex;
+
+  align-items: center;
+}
+
+.gap-10px {
+  gap: 10px;
+}
+
+.margin-20px-0px {
+  margin: 20px 0;
+}
